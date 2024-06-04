@@ -9,9 +9,9 @@ const Aboutpage = () => {
       <div className="flex flex-col my-auto gap-2 items-center justify-center mb-10 laptop:mb-0">
         <h1 className="text-white text-3xl mt-5 laptop:mb-0 ">Passionate</h1>
         <h2 className="text-2xl text-blue-500">Full Stack Developer</h2>
-        <p className="text-white text-sm laptop:text-md w-full px-5 laptop:w-96 text-center laptop:text-justify">I'm a passionate junior fullstack engineer with a love for crafting innovative digital solutions. My tech stack is React Js for the frontend, Node Js and Express Js for the backend and MongoDB for the database. I soon fell in love with Next Js which makes fullstack development seamless and unmatchingly easy.
-          I thrive on tackling complex challenges and finding creative solutions. Whether it's coding a sleek user interface or optimizing database performance, I'm always up for the challenge.
-          In the ever-evolving world of technology, there's always something new to learn. I'm committed to staying ahead of the curve, exploring emerging trends, and mastering new tools and techniques.
+        <p className="text-white text-sm laptop:text-md w-full px-5 laptop:w-96 text-center laptop:text-justify">I am a passionate junior fullstack engineer with a love for crafting innovative digital solutions. My tech stack is React Js for the frontend, Node Js and Express Js for the backend and MongoDB for the database. I soon fell in love with Next Js which makes fullstack development seamless and unmatchingly easy.
+          I thrive on tackling complex challenges and finding creative solutions. Whether it is coding a sleek user interface or optimizing database performance, I am always up for the challenge.
+          In the ever-evolving world of technology, there is always something new to learn. I am committed to staying ahead of the curve, exploring emerging trends, and mastering new tools and techniques.
         </p>
         <div className="flex"><Link href="https://wa.link/l8cd8e" className="bg-blue-500 hover:bg-blue-400 text-white rounded-sm py-2 px-4">Hire me</Link></div>
       </div>
