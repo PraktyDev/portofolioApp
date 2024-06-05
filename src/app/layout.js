@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-        <main className="bg-slate-900 py-4 h-full">
+        <main className="bg-slate-900 py-4 min-h-screen">
           <Header />
           {children}
           <Footer />
