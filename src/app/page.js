@@ -4,7 +4,7 @@ import Body from '@components/Body'
 
 const page = () => {
   return (
-    <main className='container mx-auto'>
+    <main className='container mx-auto h-full'>
       <Hero />
       <Body />
     </main>

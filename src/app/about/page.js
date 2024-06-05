@@ -15,7 +15,7 @@ const Aboutpage = () => {
         </p>
         <div className="flex"><Link href="https://wa.link/l8cd8e" className="bg-blue-500 hover:bg-blue-400 text-white rounded-sm py-2 px-4">Hire me</Link></div>
       </div>
-      <ul className="mt-2 rounded-sm my-auto text-white text-xl laptop:text-6xl border border-1 border-yellow-200 p-2 uppercase justify-center flex laptop:flex-col gap-4 font-semibold">
+      <ul className="mt-2 rounded-sm text-white text-xl laptop:text-6xl border border-1 border-yellow-200 p-2 uppercase justify-center flex laptop:flex-col gap-4 font-semibold">
         <div className="flex laptop:flex-col gap-2 items-center bg-yellow-200 px-4 py-2 laptop:py-6 rounded-sm text-slate-950">
           <li>a</li>
           <li>b</li>
