@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const Aboutpage = () => {
   return (
-    <div className="container overflow-hidden flex flex-col laptop:flex-row mx-auto justify-evenly ">
-      <div className="flex flex-col my-auto gap-2 items-center justify-center mb-10 laptop:mb-0">
-        <h1 className="text-white text-3xl mt-5 laptop:mb-0 ">Passionate</h1>
+    <div className="container h-full laptop:h-screen overflow-hidden flex flex-col laptop:flex-row mx-auto justify-evenly ">
+      <div className="flex flex-col gap-2 items-center justify-center mb-10 laptop:mb-0">
+        <h1 className="text-white text-3xl laptop:mb-0 ">Passionate</h1>
         <h2 className="text-2xl text-blue-500">Full Stack Developer</h2>
         <p className="text-white text-sm laptop:text-md w-full px-5 laptop:w-96 text-center laptop:text-justify">I am a passionate junior fullstack engineer with a love for crafting innovative digital solutions. My tech stack is React Js for the frontend, Node Js and Express Js for the backend and MongoDB for the database. I soon fell in love with Next Js which makes fullstack development seamless and unmatchingly easy.
           I thrive on tackling complex challenges and finding creative solutions. Whether it is coding a sleek user interface or optimizing database performance, I am always up for the challenge.
@@ -29,8 +29,8 @@ const Aboutpage = () => {
           <li>e</li>
         </div>
       </ul>
-      <div className="flex flex-col my-auto gap-6 items-center justify-center p-12">
-        <Image alt="profile" src={"/assets/images/profile.jpg"} width={150} height={150} className="rounded-full" />
+      <div className="flex flex-col gap-6 items-center justify-center p-12">
+        <Image alt="profile" src={"/assets/images/profile.jpg"} width={150} height={150} className="rounded-full " />
         <h1 className="text-white text-3xl laptop:text-4xl font-semibold text-center">Praise<br/>Akintayo</h1>
         <div className="flex gap-8 text-3xl text-white">
           <Link className='hover:text-slate-300' target="_blank" href="https://www.linkedin.com/in/praise-akintayo-8a822b196"><FaLinkedin /></Link>

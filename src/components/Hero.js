@@ -42,7 +42,7 @@ const Hero = () => {
                 <p className='text-xs'>Available for job</p>
             </div>            
             <div className=''>
-                <Image src={"/assets/images/profile.jpg"} alt='avatar' width={100} height={200} className='rounded-full' />
+                <Image src={"/assets/images/profile.jpg"} alt='avatar' width={100} height={100} className='rounded-full' />
             </div>
         </div>
     </div>
