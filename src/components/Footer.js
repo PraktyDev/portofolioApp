@@ -3,7 +3,7 @@ import { GoDotFill } from 'react-icons/go'
 
 const Footer = () => {
   return (
-    <footer className='relative bottom-0 bg-yellow-200 container mt-2 mx-auto flex rounded-md border-black border text-black font-semibold gap-1 p-4 justify-between items-center'>
+    <footer className='sticky z-10 bottom-0 bg-yellow-200 container mt-2 mx-auto flex rounded-md border-black border text-black font-semibold gap-1 p-4 justify-between items-center'>
         <div className='text-sm'>
             <p>Portfolio &copy; 2024</p>
         </div>

@@ -3,6 +3,7 @@ import { BsArrowUpRightCircleFill } from "react-icons/bs";
 import { GoDotFill } from "react-icons/go";
 import Button from './Button';
 import Link from 'next/link';
+import Slider from './Slider'
 
 
 const FetchApi = async () =>{
@@ -10,9 +11,12 @@ const FetchApi = async () =>{
     return response.json();
 }
 
+
 const FetchDogs = async () =>{
-    const response = await fetch('https://dog.ceo/api/breeds/image/random');
-    return response.json();
+    // setInterval(async() => {
+        const response = await fetch('https://dog.ceo/api/breeds/image/random');
+        return response.json();
+    // }, 100);
 }
 
 const Body = async () => {
@@ -22,9 +26,11 @@ const Body = async () => {
     //         FetchDogs();    
     //     }, 10000);    
     // },[])
-    const dogsPromise = FetchDogs(); 
+    const dogsPromise = FetchDogs()
+
     const apiPromise = FetchApi()
-    const [dogs, api] = await Promise.all([dogsPromise, apiPromise])
+    
+    const [dog, api] = await Promise.all([dogsPromise, apiPromise])
 
   return (
     <div className="flex flex-col laptop:flex-row gap-1 my-1 justify-between">
@@ -71,8 +77,9 @@ const Body = async () => {
         </div>
 
         <div className="basis-1/2 rounded-md bg-gradient-to-bl from-slate-900 to-rose-600 p-[1px] ">
-            <div className="p-4 flex items-center justify-center h-full w-full rounded-md bg-slate-950 ">
-                <Link href='/projects' className='' ><Button label='View my Projects' /></Link>
+            <div className="p-4 flex flex-col gap-6 justify-center h-full w-full rounded-md bg-slate-950 ">
+                <Link href='/projects' className='flex justify-end' ><Button label='View my Projects' /></Link>
+                <Slider />
             </div>
         </div>
 
@@ -93,7 +100,7 @@ const Body = async () => {
                 </div>
 
                 <div className="bg-slate-800 mx-auto flex justify-center items-center rounded-full ">
-                    <img  alt="dog image" className="" src={dogs.message} width={100} height={100} />
+                    <img  alt="dog image" className="" src={dog.message} width={100} height={100} />
                 </div>   
             </div>
 
