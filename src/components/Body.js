@@ -16,7 +16,7 @@ const FetchDogs = async () =>{
     // setInterval(async() => {
         const response = await fetch('https://dog.ceo/api/breeds/image/random');
         return response.json();
-    // }, 100);
+    // }, 100);0
 }
 
 const Body = async () => {

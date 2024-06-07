@@ -5,8 +5,10 @@ import Footer from "@components/Footer"
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const revalidate = 0;
+
 export const metadata = {
-  title: "PortoFolio App",
+  title: "PortFolio App",
   description: "Fullstack developer | Built by me with Next Js",
 };
 
