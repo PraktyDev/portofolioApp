@@ -21,9 +21,10 @@ export default function Slider() {
         modules={[EffectCards]}
         className="w-72 h-72 tablet:w-80 tablet:h-80 laptop:w-96 laptop:h-96 mb-10 laptop:mb-0 overflow-hidden"
       >
-        <SwiperSlide className="rounded-md bg-blue-500 p-2"><Image src={"/assets/images/portfolio.png"} width={500} height={500} alt="project image" className="w-full h-full rounded-md object-cover" /></SwiperSlide>
-        <SwiperSlide className="rounded-md bg-yellow-500 p-2"><Image src={"/assets/images/eventbg.png"} width={500} height={500} alt="project image" className="w-full h-full rounded-md object-cover" /></SwiperSlide>
-        <SwiperSlide className="rounded-md bg-orange-400 p-2"><p className="text-center text-md text-black flex items-center justify-center">Coming Soon...</p></SwiperSlide>
+        <SwiperSlide className="rounded-md bg-blue-500 p-1"><Image src={"/assets/images/portfolio.png"} width={500} height={500} alt="project image" className="w-full h-full rounded-md object-fill" /></SwiperSlide>
+        <SwiperSlide className="rounded-md bg-yellow-500 p-1"><Image src={"/assets/images/eventbg.png"} width={500} height={500} alt="project image" className="w-full h-full rounded-md object-fill" /></SwiperSlide>
+        <SwiperSlide className="rounded-md bg-orange-500 p-1"><Image src={"/assets/images/hastaimg.png"} width={500} height={500} alt="project image" className="w-full h-full rounded-md object-fill" /></SwiperSlide>
+        <SwiperSlide className="rounded-md bg-slate-800 p-2"><p className="text-center text-lg text-white font-bold m-auto flex items-center justify-center">Coming Soon...</p></SwiperSlide>
       </Swiper>
     </>
   );
