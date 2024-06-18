@@ -9,8 +9,8 @@ const ProjectCard = (props) => {
     <div className="hover:shadow-yellow-200 hover:shadow-sm flex flex-col gap-3 bg-slate-800  py-4 px-2 rounded-sm">
       <Image
         className="bg-slate-700 rounded-md object-cover w-full h-[300px] "
-        width={500}
-        height={500}
+        width={1000}
+        height={1000}
         src={props.src}
         alt="project image"
       />
