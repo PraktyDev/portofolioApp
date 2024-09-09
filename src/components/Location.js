@@ -1,7 +1,7 @@
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 
 const FetchApi = async () =>{
-    const response = await fetch(`https://ipinfo.io?token=${process.env.API_SECRET}`)
+    const response = await fetch('https://ipapi-liard.vercel.app/api/location')
     const data = await response.json()
     return data
 }
@@ -24,25 +24,25 @@ const Location = async () => {
             <div className="flex items-center py-3 gap-2">
                 <div className="flex gap-6">
                     <p className="text-slate-400 text-xs">City</p>
-                    <h1 className="text-lg text-slate-100 text-nowrap">{api.city}</h1>    
+                    <h1 className="text-lg text-slate-100 text-nowrap">{api.locale.city}</h1>    
                 </div>
                 
                 <div className="bg-blue-500 rounded-lg w-0.5 h-8" />
 
                 <div className="flex gap-6">
-                    <h1 className="text-lg text-slate-100 text-nowrap">{api.country}</h1>
+                    <h1 className="text-lg text-slate-100 text-nowrap">{api.locale.country}</h1>
                     <p className="text-slate-400 text-xs">Country</p> 
                 </div>  
             </div>
 
             <div className="flex flex-col justify-center items-center">
                 <p className="text-xs text-slate-500">Your Timezone:</p>
-                <p className="text-slate-100 text-md">{api.timezone}</p>  
+                <p className="text-slate-100 text-md">{api.locale.timezone}</p>  
             </div>
             
             <div className="flex flex-col justify-center mt-4 items-center">
                 <p className="text-xs text-slate-500">Your Network Provider:</p>
-                <p className="text-slate-100 text-md">{api.org}</p>  
+                <p className="text-slate-100 text-md">{api.locale.org}</p>  
             </div>
         </div>   
     </div>
