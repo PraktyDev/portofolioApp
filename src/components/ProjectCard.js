@@ -19,7 +19,7 @@ const ProjectCard = (props) => {
         <p className="text-white text-sm">{props.description}</p>
       </div>
 
-      <div className="flex justify-between text-md">
+      <div className="flex justify-between text-md items-center">
         <Link href={props.github} target='_blank' ><Button backgroundColor="bg-blue-500" label='Github Repo' reactIcon={<FaGithub size={15} className='text-slate-200' />} /></Link>
         <Link href={props.link} target='_blank' ><Button backgroundColor="bg-blue-500" label='Live Demo' reactIcon={<IoEye size={15} className='text-slate-200' />} /></Link>
       </div>

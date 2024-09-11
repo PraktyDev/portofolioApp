@@ -69,7 +69,7 @@ const Body = async () => {
 
             <Dog />
 
-            <Location />
+            {/* <Location /> */}
 
         </div>
     </div>

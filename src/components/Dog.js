@@ -22,7 +22,7 @@ const Dog = () => {
   }, []);
 
   return (
-    <div className="bg-slate-950 rounded-md text-white flex flex-col gap-2 p-2 h-1/2">
+    <div className="bg-slate-950 rounded-md text-white flex flex-col gap-2 p-2 h-full">
       <div className="flex flex-row justify-center laptop:justify-between items-center px-2">
         <div className="flex flex-col items-center laptop:items-start mb-5 laptop:mb-0">
           <h2>Dog Api</h2>
@@ -44,7 +44,7 @@ const Dog = () => {
             visible={true}
           />
         ) : (
-          <img alt="dog image" className="" src={dog.message} width={100} height={100} />
+          <img alt="dog image" className="w-52 h-52 object-cover rounded-xl" src={dog.message} width={100} height={100} />
         )}
       </div>
     </div>
