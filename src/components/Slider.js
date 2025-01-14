@@ -26,6 +26,7 @@ export default function Slider() {
         <SwiperSlide className="rounded-md bg-orange-500 p-1"><Image src={"/assets/images/hastaimg.png"} width={1000} height={1000} alt="project image" className="w-full h-full rounded-md object-cover" /></SwiperSlide>
         <SwiperSlide className="rounded-md bg-pink-500 p-1"><Image src={"/assets/images/attend.png"} width={1000} height={1000} alt="project image" className="w-full h-full rounded-md object-cover" /></SwiperSlide>
         <SwiperSlide className="rounded-md bg-red-500 p-1"><Image src={"/assets/images/dashboard.png"} width={1000} height={1000} alt="project image" className="w-full h-full rounded-md object-cover" /></SwiperSlide>
+        <SwiperSlide className="rounded-md bg-teal-500 p-1"><Image src={"/assets/images/junapril.png"} width={1000} height={1000} alt="project image" className="w-full h-full rounded-md object-cover" /></SwiperSlide>
       </Swiper>
     </>
   );

@@ -33,7 +33,7 @@ const Hero = () => {
             <div className="flex flex-row gap-4 text-md justify-center tablet:justify-start">
                 <Link href='https://wa.link/l8cd8e' target='_blank' ><Button backgroundColor="bg-blue-500" label='Send a message' reactIcon={<RiMessage3Fill size={15} className='text-slate-200' />} /></Link>
                 <button onClick={handleCopy} className='flex flex-row justify-center items-center gap-2 border border-blue-500 hover:bg-blue-400 p-1 rounded-sm text-xs text-white'>{text}{icon}</button>
-                <Link href='https://drive.google.com/file/d/1ork-vWINiolN2JgjUdATuSxXEGRDn1PM/view?usp=drive_link' target='_blank'><Button backgroundColor="bg-blue-500" label='Resume' reactIcon={<GrDocumentPdf size={15} className='text-slate-200' />} /></Link>
+                <Link href='https://drive.google.com/file/d/19Q-SCphNAOfuBJhzQxd_lw4yJ-Jr7q75/view?usp=sharing' target='_blank'><Button backgroundColor="bg-blue-500" label='Resume' reactIcon={<GrDocumentPdf size={15} className='text-slate-200' />} /></Link>
             </div>
         </div>
         <div className='hidden tablet:flex flex-col gap-4 items-center text-white'>
